@@ -49,28 +49,18 @@ const Skills = () => {
       ]
       
   return (
-    // <div className='h-[60vh] w-[100vw] flex justify-center items-center flex-col mt-[20vmin] sm:mt-0'>
-
-    //     <h1 className='text-4xl sm:text-6xl'>Skills</h1>
-    //        <div className=' w-[80%] md:w-[60%]  flex justify-center p-3 md:p-11 gap-10 flex-wrap'>
-                 
-    //              {SkillData.map((skill,index)=>(
-                        
-    //              <div className='min-h-20 max-h-24 max-w-24 min-w-20 flex items-center flex-col hover:scale-105 transition-all hover:shadow-inherit '><img key={index} src={skill.logo} alt={skill.name} />{skill.name}</div>
-    //              ))}
-    //        </div>
-    // </div>
-    <div className='h-[60vh] w-[100vw] flex justify-center items-center flex-col mt-20 sm:mt-0'>
-      <h1 className='text-4xl sm:text-6xl'>Skills</h1>
-      <div className='w-[80%] md:w-[60%] flex justify-center p-3 md:p-11 gap-10 flex-wrap'>
-        {SkillData.map((skill, index) => (
-          <div key={index} className='min-h-20 max-h-24 max-w-24 min-w-20 flex items-center flex-col hover:scale-105 transition-all hover:shadow-inherit'>
-            <img src={skill.logo} alt={skill.name} />
-            {skill.name}
-          </div>
-        ))}
+    <div id='Skills' className='min-h-[60vh] w-full flex justify-center items-center flex-col mt-20 sm:mt-0'>
+  <h1 className='text-4xl sm:text-6xl'>Skills</h1>
+  <div className='w-full sm:w-[80%] md:w-[60%] flex justify-center p-3 sm:p-6 gap-6 sm:gap-10 flex-wrap'>
+    {SkillData.map((skill, index) => (
+      <div key={index} className='min-h-20 max-h-24 max-w-24 min-w-20 flex items-center flex-col hover:scale-105 sm:hover:scale-105 transition-all'>
+        <img src={skill.logo} alt={skill.name} />
+        {skill.name}
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+
   )
 }
 
