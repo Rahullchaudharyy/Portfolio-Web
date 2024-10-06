@@ -7,15 +7,15 @@ const Projects = () => {
         {
           name: "Blog Application",
           description: "A blog platform where users can create,  posts.",
-          github: "https://github.com/your-username/blog-app",
-          live: "https://your-blog-app.com",
+          github: "https://github.com/Rahullchaudharyy/Blog-App",
+          live: "https://blog-app-olive-two.vercel.app/",
           technologies: ["React", "Firebase", "JavaScript","Tailwind"]
         },
         {
           name: "Job Portal",
           description: "Job portal application with user authentication and job search functionality.",
-          github: "https://github.com/your-username/job-portal",
-          live: "https://your-job-portal.com",
+          github: "https://github.com/Rahullchaudharyy/Job-Portal",
+          live: "https://job-portal-nine-rosy.vercel.app/",
           technologies: ["React", "Firebase", "redux toolkit","Tailwind"]
         },
       ];

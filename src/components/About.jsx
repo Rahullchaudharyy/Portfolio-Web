@@ -21,10 +21,10 @@ const About = () => {
         <button
           id="Download-CV"
           className="h-6vh w-auto p-4 cursor-pointer bg-white rounded-lg border border-purple-300 hover:bg-purple-300 transition duration-300 ease-in-out"
-          onClick={() => window.location.href = './Resume/Rahul-final.pdf'}
+          onClick={() => window.location.href = './public/Rahul-Chaudhary-resume.pdf'}
           download
         >
-          Download Resume
+          See my Resume
         </button>
       </div>
     </div>

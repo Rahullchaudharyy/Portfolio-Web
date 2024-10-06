@@ -16,10 +16,13 @@ const Home = () => {
     Get in Touch {">"}
   </button>
 </a>
-        <button >GitHub</button>
+        <button  ><a target='_blank' href="https://github.com/Rahullchaudharyy">GitHub</a></button>
       </div>
     </div>
-    <div className='h-full hidden md:flex w-[40%]'>
+    <div className='h-full hidden md:flex justify-center items-center w-[40%]'>
+      <div className="h-auto w-full">
+         <img src="https://my-portfolio-website-sigma-five.vercel.app/Images/19362653.jpg" alt="" />
+      </div>
     </div>
   </div>
   )
