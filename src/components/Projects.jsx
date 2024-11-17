@@ -5,11 +5,10 @@ const Projects = () => {
     const projects = [
        
         {
-          name: "Blog Application",
-          description: "A blog platform where users can create,  posts.",
-          github: "https://github.com/Rahullchaudharyy/Blog-App",
-          live: "https://blog-app-olive-two.vercel.app/",
-          technologies: ["React", "Firebase", "JavaScript","Tailwind"]
+          name: "EchoNest (Under Development) ",
+          description: "A full-Stack Web-app that allow user to Write and organise thire blog and much more ... ",
+          github: "https://github.com/Rahullchaudharyy/EchoNest",
+          technologies: ["React", "NodeJs","Tailwind","Express","MongoDB"]
         },
         {
           name: "Job Portal",
@@ -17,6 +16,13 @@ const Projects = () => {
           github: "https://github.com/Rahullchaudharyy/Job-Portal",
           live: "https://job-portal-nine-rosy.vercel.app/",
           technologies: ["React", "Firebase", "redux toolkit","Tailwind"]
+        },
+        {
+          name: "Task Mangment App",
+          description: "Allow User to Manage theire task !! With the CRUD opereations Built with the NextJs",
+          github: "https://github.com/Rahullchaudharyy/Task-Managment-App",
+          live: "https://task-managment-app-nine.vercel.app/",
+          technologies: [ "NextJS", "redux toolkit","Tailwind"]
         },
       ];
 
@@ -52,7 +58,7 @@ const Projects = () => {
                       GitHub
                     </a>
                     <a 
-                      href={project.live} 
+                      href={project.live?project.live:project.github} 
                       target="_blank" 
                       rel="noopener noreferrer" 
                       className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition-colors"
