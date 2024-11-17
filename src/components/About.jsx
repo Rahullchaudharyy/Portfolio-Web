@@ -21,7 +21,7 @@ const About = () => {
         <button
           id="Download-CV"
           className="h-6vh w-auto p-4 cursor-pointer bg-white rounded-lg border border-purple-300 hover:bg-purple-300 transition duration-300 ease-in-out"
-          onClick={() => window.location.href = './public/Rahul-Chaudhary-resume.pdf'}
+          onClick={() => window.location.href = 'https://drive.google.com/file/d/1WF0mwFxZ7ccDT9-dQEI_w09Zkx3u4raU/view?usp=drive_link'}
           download
         >
           See my Resume
