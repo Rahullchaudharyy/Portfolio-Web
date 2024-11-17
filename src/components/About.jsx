@@ -14,7 +14,7 @@ const About = () => {
         As a fervent front-end developer, I find my greatest joy in crafting elegant code and exploring all things technical.
       </p>
      
-     
+     {/* // Link added  */}
       <div className="flex items-center justify-center gap-24 pt-32 h-4vh w-auto">
        
       
